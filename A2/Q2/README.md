@@ -1,4 +1,4 @@
-# Kernal vs User Thread Visualization
+# Kernel vs User Thread Visualization
 Assignment 2 Question 2 attempts to visualize whether pthreads are visible to the kernel. This is accomplished using two threads: 
 
 - Thread 1 will read input from stdin and exit upon receiving input.
