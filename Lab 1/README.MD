@@ -1,0 +1,2 @@
+# Simple Shell
+Implements a rudimentary shell that repeatedly reads a line of user input (containing a Unix/Linux command to be executed) until the user enters CTRL-D (End Of File). It work by simply forking the process that reads user input (thereby keeping one process to constantly poll for more input). The newly created thread then tokenizes the input based upon spaces (ie ' ') and calls execv(tokens[0], tokens) using the parsed input.

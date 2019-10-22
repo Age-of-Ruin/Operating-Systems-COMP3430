@@ -1,1 +1,2 @@
-# COMP3430
+# Operating Systems (COMP3430)
+Learned about basic OS concepts like the kernel and how it interacts with system hardware. This involved understanding multiprocess/multithreaded applications, synchronization data structures/deadlock avoidance, and distributed architechures (eg shared memory vs message passing). Also learned about filesystems, virtual memory, and various CPU scheduling algorithms.
